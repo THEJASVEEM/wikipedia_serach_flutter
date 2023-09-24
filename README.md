@@ -1,16 +1,31 @@
-# wiki_freo
+# Wikipedia Search Flutter
 
-A new Flutter project.
+A Flutter app for searching and exploring Wikipedia articles.
 
-## Getting Started
+## Getting started
 
-This project is a starting point for a Flutter application.
+### Installation
 
-A few resources to get you started if this is your first Flutter project:
+Make sure your environment is setup to work with flutter and then to get started with the developmet of this project, clone and run the following.
+    
+```sh
+flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+We use Monarch for our testing, so be sure to install that. You can follow the docs [here.](https://monarchapp.io/docs/install)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+
+Run `flutter run` from the `example` folder to run on a connected device
+
+```sh
+cd example
+flutter run
+```
+
+For regular tests you can use
+
+```sh
+cd example
+flutter test
+```
